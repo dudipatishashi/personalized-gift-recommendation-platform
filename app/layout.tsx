@@ -15,17 +15,17 @@ export const metadata: Metadata = {
   generator: "v0.dev",
 }
 
-export default async function RootLayout({
+export default  function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-  const session = await getServerSession(authOptions)
+
 
   return (
     <html lang="en">
       <body className={montserrat.className}>
-        <Providers session={session}>
+        <Providers session={null}>
           {children}
           <SavedGiftsWrapper />
         </Providers>
