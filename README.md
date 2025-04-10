@@ -1,8 +1,4 @@
-Here’s your content converted into a clean `README.md` file format (Markdown syntax). You can copy this and save it as a file named `README.md` in the **root folder** of your project.
 
----
-
-```markdown
 # Gift Recommendation Platform
 
 Gift Recommendation Platform is an AI-powered web application designed to help users find the perfect gift for their loved ones. It provides personalized gift recommendations based on user preferences, interests, and special occasions.
